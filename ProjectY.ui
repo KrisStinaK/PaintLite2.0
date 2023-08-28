@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1419</width>
+    <height>906</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSlider" name="verticalSlider">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>22</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1419</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Формат</string>
+    </property>
+    <addaction name="action_4"/>
+    <addaction name="action_7"/>
+    <addaction name="action_8"/>
+   </widget>
+   <widget class="QMenu" name="menu_7">
+    <property name="title">
+     <string>Инструменты</string>
+    </property>
+    <widget class="QMenu" name="menu_8">
+     <property name="title">
+      <string>Фигуры</string>
+     </property>
+     <addaction name="action_26"/>
+     <addaction name="action_27"/>
+     <addaction name="action_28"/>
+     <addaction name="action_19"/>
+     <addaction name="action_32"/>
+    </widget>
+    <widget class="QMenu" name="menu_9">
+     <property name="title">
+      <string>Стиль</string>
+     </property>
+     <addaction name="action_35"/>
+     <addaction name="action_1"/>
+     <addaction name="action_36"/>
+     <addaction name="action_37"/>
+     <addaction name="action_38"/>
+    </widget>
+    <widget class="QMenu" name="menu_10">
+     <property name="title">
+      <string>Тольщина</string>
+     </property>
+     <addaction name="action2"/>
+     <addaction name="action4px"/>
+     <addaction name="action7px"/>
+     <addaction name="action9px"/>
+     <addaction name="action12px"/>
+     <addaction name="action15px"/>
+     <addaction name="action17px"/>
+     <addaction name="action20px"/>
+     <addaction name="action25px"/>
+     <addaction name="action30px"/>
+     <addaction name="action35px"/>
+     <addaction name="action40px"/>
+     <addaction name="action45px"/>
+     <addaction name="action50px"/>
+    </widget>
+    <addaction name="menu_8"/>
+    <addaction name="action_29"/>
+    <addaction name="action_30"/>
+    <addaction name="action_31"/>
+    <addaction name="menu_9"/>
+    <addaction name="menu_10"/>
+    <addaction name="action_34"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Отмена действия</string>
+    </property>
+    <addaction name="action_33"/>
+    <addaction name="action_39"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_7"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_5"/>
+   <addaction name="action_6"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_15"/>
+   <addaction name="action_16"/>
+   <addaction name="action_17"/>
+   <addaction name="action_45"/>
+   <addaction name="action_46"/>
+   <addaction name="action_180"/>
+   <addaction name="action_18"/>
+   <addaction name="action_20"/>
+   <addaction name="separator"/>
+   <addaction name="action_21"/>
+   <addaction name="action_22"/>
+   <addaction name="action_23"/>
+   <addaction name="action_24"/>
+   <addaction name="action_42"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="action_9"/>
+   <addaction name="action_10"/>
+   <addaction name="action_11"/>
+   <addaction name="action_12"/>
+   <addaction name="action_13"/>
+   <addaction name="action_14"/>
+  </widget>
+  <action name="action">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Выйти</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Добавить фон</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Холст</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Создать файл</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>Сохранить файл</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>Шрифт</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>Цвет шрифта</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>Цвет фона</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>Выделить</string>
+   </property>
+  </action>
+  <action name="action_15">
+   <property name="text">
+    <string>Вставить фото</string>
+   </property>
+  </action>
+  <action name="action_16">
+   <property name="text">
+    <string>Повернуть вправо</string>
+   </property>
+  </action>
+  <action name="action_17">
+   <property name="text">
+    <string>Повернуть влево</string>
+   </property>
+  </action>
+  <action name="action_45">
+   <property name="text">
+    <string>Повернуть на 45 градусов вправо</string>
+   </property>
+  </action>
+  <action name="action_46">
+   <property name="text">
+    <string>Повернуть на 45 градусов влево</string>
+   </property>
+  </action>
+  <action name="action_180">
+   <property name="text">
+    <string>Повернуть на 180 градусов</string>
+   </property>
+  </action>
+  <action name="action_18">
+   <property name="text">
+    <string>Убрать фото</string>
+   </property>
+  </action>
+  <action name="action_20">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="action_21">
+   <property name="text">
+    <string>Негатив</string>
+   </property>
+  </action>
+  <action name="action_22">
+   <property name="text">
+    <string>Черно-белое</string>
+   </property>
+  </action>
+  <action name="action_23">
+   <property name="text">
+    <string>Странная инверсия</string>
+   </property>
+  </action>
+  <action name="action_24">
+   <property name="text">
+    <string>Оригинал</string>
+   </property>
+  </action>
+  <action name="action_26">
+   <property name="text">
+    <string>Четырехугольник</string>
+   </property>
+  </action>
+  <action name="action_27">
+   <property name="text">
+    <string>Линия</string>
+   </property>
+  </action>
+  <action name="action_28">
+   <property name="text">
+    <string>Круг</string>
+   </property>
+  </action>
+  <action name="action_29">
+   <property name="text">
+    <string>Кисть</string>
+   </property>
+  </action>
+  <action name="action_30">
+   <property name="text">
+    <string>Заливка</string>
+   </property>
+  </action>
+  <action name="action_31">
+   <property name="text">
+    <string>Ластик</string>
+   </property>
+  </action>
+  <action name="action_34">
+   <property name="text">
+    <string>Цвет</string>
+   </property>
+  </action>
+  <action name="action_35">
+   <property name="text">
+    <string>Обычный стиль</string>
+   </property>
+  </action>
+  <action name="action_1">
+   <property name="text">
+    <string>Стиль_1</string>
+   </property>
+  </action>
+  <action name="action_36">
+   <property name="text">
+    <string>Стиль_2</string>
+   </property>
+  </action>
+  <action name="action_37">
+   <property name="text">
+    <string>Стиль_3</string>
+   </property>
+  </action>
+  <action name="action_38">
+   <property name="text">
+    <string>Стиль_4</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>2px</string>
+   </property>
+  </action>
+  <action name="action4px">
+   <property name="text">
+    <string>4px</string>
+   </property>
+  </action>
+  <action name="action7px">
+   <property name="text">
+    <string>7px</string>
+   </property>
+  </action>
+  <action name="action9px">
+   <property name="text">
+    <string>9px</string>
+   </property>
+  </action>
+  <action name="action12px">
+   <property name="text">
+    <string>12px</string>
+   </property>
+  </action>
+  <action name="action15px">
+   <property name="text">
+    <string>15px</string>
+   </property>
+  </action>
+  <action name="action17px">
+   <property name="text">
+    <string>17px</string>
+   </property>
+  </action>
+  <action name="action20px">
+   <property name="text">
+    <string>20px</string>
+   </property>
+  </action>
+  <action name="action25px">
+   <property name="text">
+    <string>25px</string>
+   </property>
+  </action>
+  <action name="action30px">
+   <property name="text">
+    <string>30px</string>
+   </property>
+  </action>
+  <action name="action35px">
+   <property name="text">
+    <string>35px</string>
+   </property>
+  </action>
+  <action name="action40px">
+   <property name="text">
+    <string>40px</string>
+   </property>
+  </action>
+  <action name="action45px">
+   <property name="text">
+    <string>45px</string>
+   </property>
+  </action>
+  <action name="action50px">
+   <property name="text">
+    <string>50px</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Рисовать</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>Текст</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Изображение</string>
+   </property>
+  </action>
+  <action name="action_19">
+   <property name="text">
+    <string>Закрашенный четырехугольник</string>
+   </property>
+  </action>
+  <action name="action_25">
+   <property name="text">
+    <string>Закрашенная линия</string>
+   </property>
+  </action>
+  <action name="action_32">
+   <property name="text">
+    <string>Закрашенный круг</string>
+   </property>
+  </action>
+  <action name="action_33">
+   <property name="text">
+    <string>Отменить</string>
+   </property>
+  </action>
+  <action name="action_39">
+   <property name="text">
+    <string>Вернуть</string>
+   </property>
+  </action>
+  <action name="action_70">
+   <property name="text">
+    <string>Прозрачность 70%</string>
+   </property>
+  </action>
+  <action name="action_50">
+   <property name="text">
+    <string>Прозрачность 50%</string>
+   </property>
+  </action>
+  <action name="action_40">
+   <property name="text">
+    <string>Прозрачность 25%</string>
+   </property>
+  </action>
+  <action name="action_41">
+   <property name="text">
+    <string>Прозрачность 15%</string>
+   </property>
+  </action>
+  <action name="action_85">
+   <property name="text">
+    <string>Прозрачность 85%</string>
+   </property>
+  </action>
+  <action name="action_42">
+   <property name="text">
+    <string>Прозрачность</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

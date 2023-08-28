@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1199</width>
+    <height>909</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1199</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+    <addaction name="action_9"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Инструменты</string>
+    </property>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>Кисть</string>
+     </property>
+     <widget class="QMenu" name="menu_5">
+      <property name="title">
+       <string>Стиль</string>
+      </property>
+      <addaction name="action_5"/>
+      <addaction name="action_1"/>
+      <addaction name="action_8"/>
+      <addaction name="action_17"/>
+      <addaction name="action_18"/>
+     </widget>
+     <addaction name="menu_5"/>
+    </widget>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>Фигуры</string>
+     </property>
+     <addaction name="action_10"/>
+     <addaction name="action_11"/>
+     <addaction name="action_12"/>
+     <addaction name="action_13"/>
+     <addaction name="action_14"/>
+    </widget>
+    <widget class="QMenu" name="menu_6">
+     <property name="title">
+      <string>Размер</string>
+     </property>
+     <addaction name="action2px"/>
+     <addaction name="action4px"/>
+     <addaction name="action7px"/>
+     <addaction name="action9px"/>
+     <addaction name="action12px"/>
+     <addaction name="action15px"/>
+     <addaction name="action17px"/>
+     <addaction name="action20px"/>
+     <addaction name="action25px"/>
+     <addaction name="action30px"/>
+     <addaction name="action35px"/>
+     <addaction name="action40px"/>
+     <addaction name="action45px"/>
+     <addaction name="action50px"/>
+    </widget>
+    <addaction name="menu_3"/>
+    <addaction name="action_6"/>
+    <addaction name="action_7"/>
+    <addaction name="menu_4"/>
+    <addaction name="menu_6"/>
+    <addaction name="action_16"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Главное меню</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Вставить</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Заливка</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>Ластик</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>Линия</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>Круг</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>Прямоугольник</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>Закрашенный круг</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>Закрашенный прямоугольник</string>
+   </property>
+  </action>
+  <action name="action_16">
+   <property name="text">
+    <string>Цвет</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>Обычный стиль</string>
+   </property>
+  </action>
+  <action name="action_1">
+   <property name="text">
+    <string>Стиль_1</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Стиль_2</string>
+   </property>
+  </action>
+  <action name="action_17">
+   <property name="text">
+    <string>Стиль_3</string>
+   </property>
+  </action>
+  <action name="action_18">
+   <property name="text">
+    <string>Стиль_4</string>
+   </property>
+  </action>
+  <action name="action2px">
+   <property name="text">
+    <string>2px</string>
+   </property>
+  </action>
+  <action name="action4px">
+   <property name="text">
+    <string>4px</string>
+   </property>
+  </action>
+  <action name="action7px">
+   <property name="text">
+    <string>7px</string>
+   </property>
+  </action>
+  <action name="action9px">
+   <property name="text">
+    <string>9px</string>
+   </property>
+  </action>
+  <action name="action12px">
+   <property name="text">
+    <string>12px</string>
+   </property>
+  </action>
+  <action name="action15px">
+   <property name="text">
+    <string>15px</string>
+   </property>
+  </action>
+  <action name="action17px">
+   <property name="text">
+    <string>17px</string>
+   </property>
+  </action>
+  <action name="action20px">
+   <property name="text">
+    <string>20px</string>
+   </property>
+  </action>
+  <action name="action25px">
+   <property name="text">
+    <string>25px</string>
+   </property>
+  </action>
+  <action name="action30px">
+   <property name="text">
+    <string>30px</string>
+   </property>
+  </action>
+  <action name="action35px">
+   <property name="text">
+    <string>35px</string>
+   </property>
+  </action>
+  <action name="action40px">
+   <property name="text">
+    <string>40px</string>
+   </property>
+  </action>
+  <action name="action45px">
+   <property name="text">
+    <string>45px</string>
+   </property>
+  </action>
+  <action name="action50px">
+   <property name="text">
+    <string>50px</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
